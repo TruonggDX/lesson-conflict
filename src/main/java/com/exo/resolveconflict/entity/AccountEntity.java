@@ -17,13 +17,13 @@ import lombok.Setter;
 @Table(name = "accounts")
 public class AccountEntity extends BaseEntity {
 
-  private String fullname;
+  private String fullnames;
 
-  private String password;
+  private String passwords;
 
-  private String birthday;
+  private String birthdays;
 
-  private String email;
+  private String emails;
 
   private String phones;
 
