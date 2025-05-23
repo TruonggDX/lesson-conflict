@@ -27,5 +27,10 @@ public class AccountEntity extends BaseEntity {
 
   private String phone;
 
+
+
+  private String abc;
+
+
   private String address;
 }
