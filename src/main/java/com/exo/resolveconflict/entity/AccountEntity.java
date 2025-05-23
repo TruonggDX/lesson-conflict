@@ -18,8 +18,14 @@ import lombok.Setter;
 public class AccountEntity extends BaseEntity {
 
   private String fullname;
+
   private String password;
+
+  private String birthday;
+
   private String email;
+
   private String phone;
+
   private String address;
 }
