@@ -17,9 +17,9 @@ import lombok.Setter;
 @Table(name = "accounts")
 public class AccountEntity extends BaseEntity {
 
-  private String fullnameGaia;
-  private String passwordahsfuysa;
-  private String email;
-  private String phone;
-  private String address;
+  private String full_name;
+  private String pass_word;
+  private String email_personal;
+  private String phone_number;
+  private String address_personal;
 }
