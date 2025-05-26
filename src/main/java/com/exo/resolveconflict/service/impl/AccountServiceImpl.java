@@ -40,4 +40,9 @@ public class AccountServiceImpl implements IAccountService {
     log.info("Delete account by hehe id {}", id);
     accountRepository.deleteById(id);
   }
+
+  @Override
+  public AccountEntity getById(Long id) {
+    return accountRepository.getById(id);
+  }
 }

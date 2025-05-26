@@ -17,4 +17,6 @@ public interface IAccountService {
 
   //delete account by id
   void deleteById(Long id);
+
+  AccountEntity getById(Long id);
 }
