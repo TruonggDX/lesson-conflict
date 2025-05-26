@@ -19,25 +19,25 @@ public class AccountServiceImpl implements IAccountService {
 
   @Override
   public List<AccountEntity> findAll() {
-    log.info("Find all accounts {}", accountRepository.findAll());
+    log.info("Find all accounts hehe {}", accountRepository.findAll());
     return accountRepository.findAll();
   }
 
   @Override
   public Optional<AccountEntity> findById(Long id) {
-    log.info("Find account by id {}", id);
+    log.info("Find account by id hi {}", id);
     return accountRepository.findById(id);
   }
 
   @Override
   public AccountEntity save(AccountEntity account) {
-    log.info("Save account {}", account);
+    log.info("Save account hehe {}", account);
     return accountRepository.save(account);
   }
 
   @Override
   public void deleteById(Long id) {
-    log.info("Delete account by id {}", id);
+    log.info("Delete account by hehe id {}", id);
     accountRepository.deleteById(id);
   }
 }
