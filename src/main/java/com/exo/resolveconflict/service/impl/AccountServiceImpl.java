@@ -19,7 +19,7 @@ public class AccountServiceImpl implements IAccountService {
 
   @Override
   public List<AccountEntity> findAll() {
-    log.info("Find all accounts hehe {}", accountRepository.findAll());
+    log.info("FEATURE BRANCH: Danh sách tài khoản là {}", accountRepository.findAll());
     return accountRepository.findAll();
   }
 
