@@ -22,4 +22,14 @@ public class EmployeeSerivceImpl implements IEmployeeSerivce {
   public Employee getEmployee(Long id) {
     return employeeRepository.findById(id).orElse(null);
   }
+
+  @Override
+  public void addEmployee(Employee employee) {
+    employeeRepository.save(employee);
+  }
+
+  @Override
+  public void updateEmployee(Employee employee) {
+    employeeRepository.save(employee);
+  }
 }
